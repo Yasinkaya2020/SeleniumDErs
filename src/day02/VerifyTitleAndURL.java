@@ -36,11 +36,6 @@ public class VerifyTitleAndURL {
             System.out.println("Actual URL:"+actualURL);
         }
 
-
-
-
-
-
          driver.close();
     }
 

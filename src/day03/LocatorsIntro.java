@@ -70,6 +70,13 @@ public class LocatorsIntro {
         //3. Sayfada kac tane link oldugunu bulun.
         List<WebElement> linkListesi=driver.findElements(By.tagName("a"));
         System.out.println("Sayfada "+linkListesi.size()+" tane link var");
+        
+        //4.linkleri yazdiralim
+        System.out.println("Sayfadaki linkler");
+        for (WebElement w:linkListesi) {
+            System.out.println(w.getText());
+            
+        }
 
         driver.close();
     }
